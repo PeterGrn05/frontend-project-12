@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const NotFoundPage = () => (
+const NotFound = () => (
   <div className="container mt-5">
     <h1>404 — Страница не найдена</h1>
     <p>Такой страницы не существует.</p>
@@ -9,4 +9,4 @@ const NotFoundPage = () => (
   </div>
 )
 
-export default NotFoundPage
+export default NotFound
