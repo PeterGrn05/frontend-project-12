@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const messagesSlice = createSlice({
-  name: 'messages',
+const channelsSlice = createSlice({
+  name: 'channels',
   initialState: [],
   reducers: {
-    setMessages: (state, action) => action.payload,
+    setChannels: (state, action) => action.payload,
   },
 })
 
-export const { setMessages } = messagesSlice.actions
-export default messagesSlice.reducer
+export const { setChannels } = channelsSlice.actions
+export default channelsSlice.reducer
